@@ -15,7 +15,7 @@
 
     @livewire('navigation')
 
-    <script>
+    <script type="module">
         document.addEventListener('livewire:init', () => {
             setInterval(() => {
                 Livewire.dispatch("refreshNavigation");
