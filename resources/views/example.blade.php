@@ -19,7 +19,6 @@
         document.addEventListener('livewire:init', () => {
             setInterval(() => {
                 Livewire.dispatch("refreshNavigation");
-                Livewire.dispatch("refreshContent");
             }, 2000);
         });
     </script>
