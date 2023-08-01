@@ -14,8 +14,6 @@
     <h1>Welcome Page</h1>
 
     @livewire('navigation')
-    @livewire('content')
-
     
     <script type="module">
         document.addEventListener('livewire:init', () => {

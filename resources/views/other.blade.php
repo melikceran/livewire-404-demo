@@ -14,7 +14,6 @@
     <h1>Other Page</h1>
 
     @livewire('navigation')
-    @livewire('content')
 
     <script>
         document.addEventListener('livewire:init', () => {
